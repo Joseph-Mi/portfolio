@@ -39,16 +39,29 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      favicon: './public/joseph.ico', // Ensure this path is correct
+      favicon: './public/joseph.ico',
     }),
     new CopyWebpackPlugin({
       patterns: [
         { from: 'public', to: 'public' },
+        { from: 'assets', to: 'assets' },
       ],
     }),
   ],
@@ -56,7 +69,9 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
     compress: true,
     port: 3000,
     historyApiFallback: true,

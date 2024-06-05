@@ -1,24 +1,45 @@
 module.exports = {
-  root: true,
-  env: { browser: true, es2020: true },
+  env: {
+    browser: true,
+    es2021: true,
+  },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
-  settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'import', // Add the import plugin
+  ],
   rules: {
-    'react/jsx-no-target-blank': 'off',
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
+    // Your custom rules
+    'import/no-cycle': [2, { maxDepth: 1 }], // Add the rule to detect circular dependencies
   },
-  devServer: {
-    port: 3000, 
+  settings: {
+    react: {
+      version: 'detect', // Automatically detect the React version
+    },
   },
+  ignorePatterns: ["dist/"], // Ignore the dist directory
+  overrides: [
+    {
+      files: ["webpack.config.js"],
+      env: {
+        node: true, // Add this to enable Node.js global variables
+      },
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+        'no-undef': 'off',
+      },
+    },
+  ],
 };
