@@ -10,9 +10,13 @@ const MediaModal = ({ isOpen, onClose, mediaType, mediaUrl }) => {
     switch (mediaType) {
       case 'pdf':
         return (
-          <Worker workerUrl={`https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js`}>
-            <Viewer fileUrl={mediaUrl} />
-          </Worker>
+          <iframe
+            src={mediaUrl}
+            width="100%"
+            height="600px"
+            style={{ border: 'none' }}
+            title="PDF Viewer"
+          />
         );
       case 'video':
         return (

@@ -35,17 +35,17 @@
         "description": "This paper uses a damped harmonic oscillator model to determine the Q factor of a homemade pendulum.",
         "skills": ["Python", "Data Analysis"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "assets/non_photos/pendulum_report2.pdf",
+        "source": "/pendulum_report2.pdf",
         "sourceType": "pdf",
         "images": ["projects/tracker.png"]
     },
     {
         "title": "UTFR Driverless SIM",
         "imageSrc": "projects/utfr24.png",
-        "description": "This is the final project made for the CIV102 course. Utilizing matboard and concrete glue, we were challenged to create a bridge. Still in the design phase.",
-        "skills": ["C#", "Data Analysis", "ROS2"],
+        "description": "Constucting a new simulation module using Unity for the University of Toronto Formula Racing team to test their driverless car algorithms.",
+        "skills": ["C#", "GPS RTK", "ROS2"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "source": "https://fsaeutoronto.ca/",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
@@ -95,7 +95,7 @@
         "description": "This is the final project made for the CIV102 course. Utilizing matboard and concrete glue, we were challenged to create a bridge.",
         "skills": ["Circuitry", "Fusion", "Altium"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "source": "https://www.utsm.ca/",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
@@ -115,7 +115,7 @@
         "description": "Summer Coop at local Active Green + Ross Automotive Centre. Worked on a variety of cars and learned the basics of car maintenance.",
         "skills": ["Automotive Repair", "Machining"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "source": "https://www.activegreenross.com/",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
