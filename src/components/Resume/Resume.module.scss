@@ -1,0 +1,86 @@
+/* Resume.module.scss */
+@import '../../vars.scss';
+
+.resumeContainer {
+    color: $color-light;
+    background-color: $color-dark;
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  list-style-type: none;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .iconBox {
+    margin-right: 10px;
+  }
+}
+
+.timelineList {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 30px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #c5c5c5;
+  }
+
+  &:not(:last-child):after {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #64ff79;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  &:last-child:after {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00bfa6;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1;
+  }
+}
+
+.timelineItemTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.timelineText {
+  font-size: 1rem;
+  color: #666;
+}
+  
+  

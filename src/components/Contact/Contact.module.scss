@@ -1,0 +1,60 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Changed from 'left' to 'flex-start' */
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row; /* Changed from 'column' to 'row' to place children side by side */
+}
+
+.askMe {
+  width: 50%;
+  margin-right: 4%;
+  /* No change needed here, but ensure that the combined width of .askMe and .botHolder does not exceed 100% including margins */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.submit {
+  margin-top: 2%;
+}
+
+input,
+select,
+textarea {
+  flex: 1;
+}
+
+.bot {
+  width: 50%; /* Set the width to 50% to match .askMe */
+  height: 300px; /* Adjust the height as needed */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #777;
+  border-radius: 15px;
+}

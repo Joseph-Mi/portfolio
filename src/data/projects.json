@@ -1,0 +1,162 @@
+[
+    {
+      "title": "Bridge Failure Analysis",
+      "imageSrc": "projects/bridge_team.png",
+      "description": "This is the final project made for the CIV102 course. We were designed and built a bridge with only concrete glue and matboard.",
+      "skills": ["Matlab", "Python", "Numpy", "Civil Engineering Stress Analysis"],
+      "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+      "source": "https://github.com/allanlzee/civ102-bridge",
+      "sourceType": "website",
+      "images": ["projects/bridge.png"]
+    },
+    {
+      "title": "Android App: LockedIn",
+      "imageSrc": "projects/lockedin.jpg",
+      "description": "This project was made for the MakeUofT 2024 event. It is a product for resident students to remotely lock and unlock their dorm rooms.",
+      "skills": ["PlatformIO", "C++", "Java", "Arduino", "Android Development"],
+      "info": "https://docs.google.com/document/d/1qznq0rQQq7dMEAfIKZrrXX_pucWKaW8ohKkmPrSm5uM/edit?usp=sharing",
+      "source": "https://www.youtube.com/embed/YSH8Hd4wntA?si=iY2JbeJC7Dj1y0ct",
+      "sourceType": "video",
+      "images": ["projects/tetrisboard.png", "projects/makegears.png", "projects/bluetooth.png", "projects/app.jpg"]
+    },
+    {
+        "title": "Ghera (HTG Idea)",
+        "imageSrc": "projects/ghera.png",
+        "description": "HTG24 business idea pitch: a platform lower-end communities to approach waste management using computer vision and upcycling.",
+        "skills": ["Computer Vison","AI"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://app.uizard.io/p/e3b7d8d4/embed",
+        "sourceType": "iframe",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Report: Pendulum Analysis",
+        "imageSrc": "projects/ai_pendulum.png",
+        "description": "This paper uses a damped harmonic oscillator model to determine the Q factor of a homemade pendulum.",
+        "skills": ["Python", "Data Analysis"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "assets/non_photos/pendulum_report2.pdf",
+        "sourceType": "pdf",
+        "images": ["projects/tracker.png"]
+    },
+    {
+        "title": "UTFR Driverless SIM",
+        "imageSrc": "projects/utfr24.png",
+        "description": "This is the final project made for the CIV102 course. Utilizing matboard and concrete glue, we were challenged to create a bridge. Still in the design phase.",
+        "skills": ["C#", "Data Analysis", "ROS2"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Portfolio Webpage",
+        "imageSrc": "projects/portfolio.png",
+        "description": "React webpage created to showcase my skills, projects, and experiences for the one of the final Praxis II Projects. This project inspired me to create this polished up webpage. It has been deployed on Netlify; Repo is in my Github.",
+        "skills": ["React", "Bootstrap", "MySQL", "NodeJS"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://josephmiportfolio.netlify.app/",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Verity (Blockchain App)",
+        "imageSrc": "projects/verity_home.png",
+        "description": "BlockHacks 2024 project: a blockchain-based charity Dapp that verifies the detination of donations. This DApp attempts to solve the issue of trust in charity organizations using the latest blockchain technologies provided by AstraKode.",
+        "skills": ["AtraKode", "Blockchain", "React", "MongoDB"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/verity_DB.png", "projects/verity_docker.png", "projects/verity_donate.png", "projects/verity_win.jpg"]
+    },
+    {
+        "title": "Praxis II: Gearhub Cordage Compiler",
+        "imageSrc": "projects/GCC.png",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["Fusion360", "C++", "Python Machine Learning", "Multivariable Calculus"],
+        "info": "https://docs.google.com/document/d/17PKZTQfXAczDD-WmpgOrLFMBxCNWOgQyPL2xN7nyVG4/edit?usp=sharing",
+        "source": "https://www.canva.com/design/DAGCjEsw_Y8/HLd58PPYTMUmS6JlgSfpGg/view?embed",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Praxis I: Residence Cutlery Dispenser",
+        "imageSrc": "projects/claw_machine1.png",
+        "description": "This project attempts to increase the cleanliness and sanitation of the cutlery dispensary system at Chestnut Residence.",
+        "skills": ["Fusion360", "Engineering Design"],
+        "info": "https://docs.google.com/document/d/1ILxTWQ5w8TmVWPztzh5vzvNK32S_p6H5Be6yFyk0kqE/edit?usp=sharing",
+        "source": "assets/non_photos/praxis1.pdf",
+        "sourceType": "pdf",
+        "images": ["projects/claw_machine2.png"]
+    },
+    {
+        "title": "BMS Integration",
+        "imageSrc": "projects/circuit_planning.png",
+        "description": "This is the final project made for the CIV102 course. Utilizing matboard and concrete glue, we were challenged to create a bridge.",
+        "skills": ["Circuitry", "Fusion", "Altium"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Fullstack Intern",
+        "imageSrc": "projects/confidens.png",
+        "description": "Summer 2024 Intern at Confidens Analytics, a data analytics company that specializes in dentistry. Funded through the Riipen LevelUp program.",
+        "skills": ["Vue", "Laravel", "Bootstrap", "MySQL"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://confidensanalytics.com/",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Junior Mechanic",
+        "imageSrc": "projects/truck.png",
+        "description": "Summer Coop at local Active Green + Ross Automotive Centre. Worked on a variety of cars and learned the basics of car maintenance.",
+        "skills": ["Automotive Repair", "Machining"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "Science Workshops",
+        "imageSrc": "projects/KAST.png",
+        "description": "Hosted a series of workshops for the KAST organization to teach kids about the basics of science.",
+        "skills": ["Teaching"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "In progress: CAPTR",
+        "imageSrc": "projects/in_progress.gif",
+        "description": "Long-term project to create a self-localizing rocket with a team of 8 friends. Currently in the design phase.",
+        "skills": ["UKFs", "Onshape", "C++"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "In Progress: ME",
+        "imageSrc": "projects/in_progress.gif",
+        "description": "Currently Developing a Chrome Extension to assist in the job from application process. Currently in the development phase.",
+        "skills": ["ML", "Python", "Chrome Expensions", "Javascript"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "https://github.com/allanlzee/civ102-bridge",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    },
+    {
+        "title": "In Progress: ParkingLOT",
+        "imageSrc": "projects/in_progress.gif",
+        "description": "Platform for finding available parking locations in urban cities. Airbnb for parking. Currently in the research phase.",
+        "skills": ["React", "NodeJS", "MySQL", "App Dev"],
+        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "source": "",
+        "sourceType": "website",
+        "images": ["projects/bridge.png"]
+    }
+  ]
