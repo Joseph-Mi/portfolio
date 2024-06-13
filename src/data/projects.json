@@ -5,8 +5,8 @@
       "description": "This is the final project made for the CIV102 course. We were designed and built a bridge with only concrete glue and matboard.",
       "skills": ["Matlab", "Python", "Numpy", "Civil Engineering Stress Analysis"],
       "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-      "source": "https://github.com/allanlzee/civ102-bridge",
-      "sourceType": "website",
+      "source": "/assets/non_photos/github_bridge.pdf",
+      "sourceType": "pdf",
       "images": ["projects/bridge.png"]
     },
     {
@@ -35,7 +35,7 @@
         "description": "This paper uses a damped harmonic oscillator model to determine the Q factor of a homemade pendulum.",
         "skills": ["Python", "Data Analysis"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "/pendulum_report2.pdf",
+        "source": "/assets/non_photos/pendulum_report2.pdf",
         "sourceType": "pdf",
         "images": ["projects/tracker.png"]
     },
@@ -125,7 +125,7 @@
         "description": "Hosted a series of workshops for the KAST organization to teach kids about the basics of science.",
         "skills": ["Teaching"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "source": "https://linktr.ee/AgincourtScienceClub?utm_source=linktree_admin_share",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
@@ -135,7 +135,7 @@
         "description": "Long-term project to create a self-localizing rocket with a team of 8 friends. Currently in the design phase.",
         "skills": ["UKFs", "Onshape", "C++"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "source": "https://github.com/CAPTR-Project",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
@@ -145,7 +145,7 @@
         "description": "Currently Developing a Chrome Extension to assist in the job from application process. Currently in the development phase.",
         "skills": ["ML", "Python", "Chrome Expensions", "Javascript"],
         "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "source": "",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
