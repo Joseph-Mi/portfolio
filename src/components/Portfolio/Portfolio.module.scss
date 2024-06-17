@@ -1,0 +1,35 @@
+@import "../../vars.scss";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.title {
+  font-size: 4vh;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  color: $color-light;
+  padding-left: 4.5vw;
+}
+
+.projects {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

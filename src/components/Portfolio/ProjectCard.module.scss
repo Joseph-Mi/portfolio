@@ -1,0 +1,81 @@
+@import "../../vars.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(180deg, $color-light-green 0%, $color-grey 100%);
+  box-shadow: 0 16px 14px 0 #0c2d04;
+  padding: 1vw 2vh;
+  width: 15vw;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.image {
+  width: 100%; /* Ensure the image takes full width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto 2vh; /* Center horizontally and add bottom margin */
+  object-fit: cover;
+  display: block;
+  border-radius: 1rem;
+}
+
+.title {
+  font-size: 2vh;
+  font-weight: 800;
+  text-align: center; /* Center text within the element */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 1.5vh;
+  font-weight: 400;
+  color: $color-light;
+  flex-grow: 1; /* Allow the description to grow and fill available space */
+  overflow: hidden; /* Hide any overflow content */
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.skill {
+  font-size: 1.5vh;
+  color: $color-light;
+  font-weight: bold;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 2px;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: $color-light-green;
+  font-size: 2vh;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 4px 1.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.link:hover {
+  background-color: #4d7c57;
+}

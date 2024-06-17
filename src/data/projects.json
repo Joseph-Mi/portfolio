@@ -4,138 +4,148 @@
       "imageSrc": "projects/bridge_team.png",
       "description": "This is the final project made for the CIV102 course. We were designed and built a bridge with only concrete glue and matboard.",
       "skills": ["Matlab", "Python", "Numpy", "Civil Engineering Stress Analysis"],
-      "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-      "source": "https://github.com/allanlzee/civ102-bridge",
-      "sourceType": "website",
-      "images": ["projects/bridge.png"]
+      "info": "created a stress/strain/shear analysis program using python and numpy to determine the optimal bridge design for the final CIV102 project.",
+      "source": "/assets/non_photos/github_bridge.pdf",
+      "sourceType": "pdf",
+      "images": ["projects/bridge.png", "projects/calcpage.png", "projects/iterations.png", "projects/timelapse.gif", "projects/final_load.png", "projects/bridgetest.gif"]
     },
     {
       "title": "Android App: LockedIn",
       "imageSrc": "projects/lockedin.jpg",
       "description": "This project was made for the MakeUofT 2024 event. It is a product for resident students to remotely lock and unlock their dorm rooms.",
       "skills": ["PlatformIO", "C++", "Java", "Arduino", "Android Development"],
-      "info": "https://docs.google.com/document/d/1qznq0rQQq7dMEAfIKZrrXX_pucWKaW8ohKkmPrSm5uM/edit?usp=sharing",
+      "info": "MakeUofT 2024 project: inspired by a personal anecdote, this is a bluetooth-enabled lock for dorm rooms that can be controlled via an Android app. The lock is controlled by an Arduino and a servo motor.",
       "source": "https://www.youtube.com/embed/YSH8Hd4wntA?si=iY2JbeJC7Dj1y0ct",
       "sourceType": "video",
-      "images": ["projects/tetrisboard.png", "projects/makegears.png", "projects/bluetooth.png", "projects/app.jpg"]
+      "images": ["projects/tetrisboard.png", "projects/makegears.png", "projects/lockedin.gif", "projects/bluetooth.png", "projects/app.jpg"]
     },
     {
         "title": "Ghera (HTG Idea)",
         "imageSrc": "projects/ghera.png",
         "description": "HTG24 business idea pitch: a platform lower-end communities to approach waste management using computer vision and upcycling.",
         "skills": ["Computer Vison","AI"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "info": "Hack The Globe 2024 project: a platform for lower-end communities to approach waste management using computer vision and upcycling. This project was pitched at the HTG24 event.",
         "source": "https://app.uizard.io/p/e3b7d8d4/embed",
         "sourceType": "iframe",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/htg_team.png"]
     },
     {
-        "title": "Report: Pendulum Analysis",
+        "title": "Pendulum Analysis Report",
         "imageSrc": "projects/ai_pendulum.png",
-        "description": "This paper uses a damped harmonic oscillator model to determine the Q factor of a homemade pendulum.",
-        "skills": ["Python", "Data Analysis"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "/pendulum_report2.pdf",
+        "description": "Scientific report analyzing the periodic motion in a homemade pendulum. This paper attempts to determine its Q factor, as well as the relationship between the initial angle and period",
+        "skills": ["Python","Tracker App", "Dynamic Systems"],
+        "info": "Pendulum analysis report: a scientific report analyzing the periodic motion in a homemade pendulum. This paper attempts to determine its Q factor, as well as the relationship between the initial angle and period.",
+        "source": "assets/non_photos/pendulum_report2.pdf",
         "sourceType": "pdf",
-        "images": ["projects/tracker.png"]
-    },
-    {
-        "title": "UTFR Driverless SIM",
-        "imageSrc": "projects/utfr24.png",
-        "description": "Constucting a new simulation module using Unity for the University of Toronto Formula Racing team to test their driverless car algorithms.",
-        "skills": ["C#", "GPS RTK", "ROS2"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://fsaeutoronto.ca/",
-        "sourceType": "website",
-        "images": ["projects/bridge.png"]
-    },
-    {
-        "title": "Portfolio Webpage",
-        "imageSrc": "projects/portfolio.png",
-        "description": "React webpage created to showcase my skills, projects, and experiences for the one of the final Praxis II Projects. This project inspired me to create this polished up webpage. It has been deployed on Netlify; Repo is in my Github.",
-        "skills": ["React", "Bootstrap", "MySQL", "NodeJS"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://josephmiportfolio.netlify.app/",
-        "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/pend.png", "projects/tracker.png"]
     },
     {
         "title": "Verity (Blockchain App)",
         "imageSrc": "projects/verity_home.png",
         "description": "BlockHacks 2024 project: a blockchain-based charity Dapp that verifies the detination of donations. This DApp attempts to solve the issue of trust in charity organizations using the latest blockchain technologies provided by AstraKode.",
         "skills": ["AtraKode", "Blockchain", "React", "MongoDB"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "info": "BlockHacks 2024 project: a blockchain-based charity Dapp that tracks donations using blockchain technology. This DApp was specifically designed using AstraKode, a cutting-edge blockchain development platform.",
         "source": "https://github.com/allanlzee/civ102-bridge",
         "sourceType": "website",
         "images": ["projects/verity_DB.png", "projects/verity_docker.png", "projects/verity_donate.png", "projects/verity_win.jpg"]
     },
     {
+        "title": "UTFR Driverless SIM",
+        "imageSrc": "projects/utfr24.png",
+        "description": "Constucting a new simulation module using Unity for the University of Toronto Formula Racing team to test their driverless car algorithms.",
+        "skills": ["C#", "GPS RTK", "ROS2"],
+        "info": "Additionally to just the SIM, I've worked on GPS data and the corner modules for the car.",
+        "source": "https://fsaeutoronto.ca/",
+        "sourceType": "website",
+        "images": ["projects/spline_progression.png", "projects/ros.png", "projects/cornermod.png"]
+    },
+    {
+        "title": "Portfolio Webpage",
+        "imageSrc": "projects/portfolio.png",
+        "description": "React webpage created to showcase my skills, projects, and experiences for the one of the final Praxis II Projects. This project inspired me to create this polished up webpage. It has been deployed on Netlify; Repo is in my Github.",
+        "skills": ["React", "JavaScript XML", "Scss"],
+        "info": "This webpage was inspired me to create this more-complex portfolio webpage.",
+        "source": "https://josephmiportfolio.netlify.app/",
+        "sourceType": "website",
+        "images": ["projects/exp_pg.png"]
+    },
+    {
         "title": "Praxis II: Gearhub Cordage Compiler",
         "imageSrc": "projects/GCC.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "description": "Cordage weaver prototype designed for the arthritic Toronto Guild of Spinners and Weavers community.",
         "skills": ["Fusion360", "C++", "Python Machine Learning", "Multivariable Calculus"],
-        "info": "https://docs.google.com/document/d/17PKZTQfXAczDD-WmpgOrLFMBxCNWOgQyPL2xN7nyVG4/edit?usp=sharing",
+        "info": "Praxis II project: a cordage weaving design that aims to lessen the force needed for arthritic members to participate in basketry. This design also promotes rehabilitation, and was presented at the Praxis II showcase event",
         "source": "https://www.canva.com/design/DAGCjEsw_Y8/HLd58PPYTMUmS6JlgSfpGg/view?embed",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/gears.gif","projects/praxis2_setup.png"]
     },
     {
         "title": "Praxis I: Residence Cutlery Dispenser",
         "imageSrc": "projects/claw_machine1.png",
         "description": "This project attempts to increase the cleanliness and sanitation of the cutlery dispensary system at Chestnut Residence.",
         "skills": ["Fusion360", "Engineering Design"],
-        "info": "https://docs.google.com/document/d/1ILxTWQ5w8TmVWPztzh5vzvNK32S_p6H5Be6yFyk0kqE/edit?usp=sharing",
+        "info": "Many distict designs were brainstormed and prototyped to create the final design. This project was presented at the Praxis I Alpha event.",
         "source": "assets/non_photos/praxis1.pdf",
         "sourceType": "pdf",
-        "images": ["projects/claw_machine2.png"]
+        "images": ["projects/team12.png", "projects/praxis1_team.png", "projects/praxis1_proto.png"]
     },
     {
         "title": "BMS Integration",
         "imageSrc": "projects/circuit_planning.png",
-        "description": "This is the final project made for the CIV102 course. Utilizing matboard and concrete glue, we were challenged to create a bridge.",
+        "description": "Designed a battery management system for the University of Toronto Super Mileage.",
         "skills": ["Circuitry", "Fusion", "Altium"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "info": "Assisted in circuit management, powertrain planning, and battery management for the UT Super Mileage team. Also Designed the load cell protective container and BMS system.",
         "source": "https://www.utsm.ca/",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/utsm.png"]
+    },
+    {
+        "title": "Site: TMDB Movies",
+        "imageSrc": "",
+        "description": "Vue Movie Database site that uses the TMDB API to display movies and their details. This project was made to learn Vue.",
+        "skills": ["Python", "Data Analysis"],
+        "info": "First ever introduction to web design, using TMDB API to create a movie database site. This project was made to learn Vue.",
+        "source": "",
+        "sourceType": "website",
+        "images": [""]
     },
     {
         "title": "Fullstack Intern",
         "imageSrc": "projects/confidens.png",
         "description": "Summer 2024 Intern at Confidens Analytics, a data analytics company that specializes in dentistry. Funded through the Riipen LevelUp program.",
         "skills": ["Vue", "Laravel", "Bootstrap", "MySQL"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "info": "Completed tasks included adding location details into report analysis, redesigning the navbar to be more user friendly, and creating a new, dynamic checkout page for the website.",
         "source": "https://confidensanalytics.com/",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/map.png", "projects/checkout.png"]
     },
     {
         "title": "Junior Mechanic",
         "imageSrc": "projects/truck.png",
         "description": "Summer Coop at local Active Green + Ross Automotive Centre. Worked on a variety of cars and learned the basics of car maintenance.",
         "skills": ["Automotive Repair", "Machining"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "info": "Paid summer coop at a local Active Green + Ross Automotive Centre. Worked on oil changes, AC fix, brake pad changes, tire changes, alignments, and transmission oil changes.",
         "source": "https://www.activegreenross.com/",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/carshop.png", "projects/oil_change.png", "projects/wheel.png"]
     },
     {
         "title": "Science Workshops",
         "imageSrc": "projects/KAST.png",
         "description": "Hosted a series of workshops for the KAST organization to teach kids about the basics of science.",
         "skills": ["Teaching"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "info": "Hoste in-person workshops for the KAST and ASC organizations to teach kids ranging from grades 4-12 about scientific concepts. One of our most prominent experiences was getting to meet Neil deGrasse Tyson.",
+        "source": "https://linktr.ee/AgincourtScienceClub?utm_source=linktree_admin_share",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": ["projects/tyson.png", "projects/hologram.png", "projects/microscope.png"]
     },
     {
         "title": "In progress: CAPTR",
         "imageSrc": "projects/in_progress.gif",
         "description": "Long-term project to create a self-localizing rocket with a team of 8 friends. Currently in the design phase.",
-        "skills": ["UKFs", "Onshape", "C++"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "skills": ["UKFs", "Onshape", "Matlab", "C++"],
+        "info": "Currently working on implementing UKFs for the rocket's localization system. The rocket is designed to be able to land itself autonomously. Additionally looking for PlatformIO libraries to assist with datalogging.",
+        "source": "https://github.com/CAPTR-Project",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
@@ -144,8 +154,8 @@
         "imageSrc": "projects/in_progress.gif",
         "description": "Currently Developing a Chrome Extension to assist in the job from application process. Currently in the development phase.",
         "skills": ["ML", "Python", "Chrome Expensions", "Javascript"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
-        "source": "https://github.com/allanlzee/civ102-bridge",
+        "info": "Summer Project.",
+        "source": "",
         "sourceType": "website",
         "images": ["projects/bridge.png"]
     },
@@ -154,7 +164,7 @@
         "imageSrc": "projects/in_progress.gif",
         "description": "Platform for finding available parking locations in urban cities. Airbnb for parking. Currently in the research phase.",
         "skills": ["React", "NodeJS", "MySQL", "App Dev"],
-        "info": "https://docs.google.com/document/d/1QZNw9fcpG0MGRtPtWT4VZnzCzBIGMqycDE2iBOPP-xs/edit?usp=sharing",
+        "info": "Long-term plausible business idea.",
         "source": "",
         "sourceType": "website",
         "images": ["projects/bridge.png"]

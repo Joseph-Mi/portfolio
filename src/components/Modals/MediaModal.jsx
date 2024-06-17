@@ -1,6 +1,4 @@
 import React from "react";
-import { Worker, Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
 import styles from "./MediaModal.module.scss";
 
 const MediaModal = ({ isOpen, onClose, mediaType, mediaUrl }) => {
@@ -25,7 +23,6 @@ const MediaModal = ({ isOpen, onClose, mediaType, mediaUrl }) => {
             height="315"
             src={mediaUrl}
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className={styles.media}

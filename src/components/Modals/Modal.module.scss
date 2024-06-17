@@ -1,0 +1,98 @@
+@import "../../vars.scss";
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: rgb(78, 78, 78);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+
+  h2 {
+    color: $color-light;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  p {
+    color: $color-light;
+    margin-bottom: 10px;
+  }
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photoScroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.photo {
+  max-height: 150px;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+
+.skill {
+  background: $color-dark-green;
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 4px;
+  color: $color-light;
+}
+
+.closeButton {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.navButton {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background 0.1s;
+}
+
+.navButton:hover, .closeButton:hover{
+  background: rgba(0, 0, 0, 0.37);
+}
+
+.navButton.prev {
+  left: 0;
+}
+
+.navButton.next {
+  right: 0;
+}

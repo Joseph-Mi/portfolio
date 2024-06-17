@@ -1,0 +1,121 @@
+@import '../../vars.scss';
+
+.resumeContainer {
+    color: $color-light;
+    padding-top: 10px;
+
+    h1 {
+        font-size: 4vh;
+        font-weight: bold;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: $color-light;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 10px;
+  list-style-type: none; /* Ensure no list numbering */
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .iconBox {
+    margin-right: 10px;
+  }
+}
+
+.timelineList {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; /* Ensure no list numbering */
+
+  /* Add a continuous line for the entire list */
+  &:before {
+    content: '';
+    position: absolute;
+    left: 6px; /* Adjusted to match the new circle position */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ffffff;
+  }
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 30px;
+
+  &:not(:last-child):after,
+  &:last-child:after {
+    content: '';
+    position: absolute;
+    left: 0; /* Center the circle on the line */
+    top: 8%; /* Center the circle vertically */
+    transform: translateY(-50%); /* Center the circle vertically */
+    width: 14px; /* Decreased size of the circle */
+    height: 14px; /* Decreased size of the circle */
+    border-radius: 50%;
+    background: linear-gradient(145deg, white, $color-light-green);
+    box-shadow: 3px 3px 8px #bfbfbf, -3px -3px 8px #ffffff;
+    z-index: 1;
+  }
+}
+
+.timelineItemTitle {
+  font-size: 18px; /* Slightly larger for better readability */
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: $color-light;
+}
+
+.timelineText {
+  font-size: 14px;
+  color: $color-light;
+  /* Ensure text wraps within its container */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+span {
+  font-size: 16px;
+  background: linear-gradient(180deg, white, $color-light-green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dotJots {
+  list-style-type: none;
+  padding-left: 30px;
+  margin-top: 10px;
+
+  li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 10px; /* Width of the dash */
+      height: 2px; /* Height/thickness of the dash */
+      background-color: $color-light;
+      z-index: 1;
+    }
+  }
+}

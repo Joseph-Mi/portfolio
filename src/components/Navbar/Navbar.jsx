@@ -1,29 +1,42 @@
+// src/components/Navbar/Navbar.jsx
+
 import React from 'react';
-import styles from './Navbar.module.scss'; // Assuming you have a CSS module for styling
+import { Link } from 'react-router-dom';
+import styles from './Navbar.module.scss'; 
 import Hero from '../Hero/Hero';
 
 const Navbar = () => {
   return (
-    <nav className={`${styles.navbar} position-relative`}>
-      <div className={`${styles.heroContainer} position-absolute top-0 start-0 w-100`}>
-        <Hero></Hero>
+    <nav className={styles.navbar}>
+      <div className={styles.heroContainer}>
+        <Hero />
       </div>
-      <div className={`${styles.sidebar} position-absolute bottom-0 start-50 translate-middle-x`}>
-        <ul className="list-unstyled d-flex justify-content-center">
-          <li className="mx-2">
-            <a href="#about">About</a>
+      <div className={styles.navLinks}>
+        <ul>
+        <li>
+            <Link to="/home">
+              <button className={styles.navButton}>Home</button>
+            </Link>
           </li>
-          <li className="mx-2">
-            <a href="#education">Education</a>
+          <li>
+            <Link to="/about">
+              <button className={styles.navButton}>About</button>
+            </Link>
           </li>
-          <li className="mx-2">
-            <a href="#experience">Experience</a>
+          <li>
+            <Link to="/resume">
+              <button className={styles.navButton}>Background</button>
+            </Link>
           </li>
-          <li className="mx-2">
-            <a href="#projects">Projects</a>
+          <li>
+            <Link to="/portfolio">
+              <button className={styles.navButton}>Projects</button>
+            </Link>
           </li>
-          <li className="mx-2">
-            <a href="#contact">Contact</a>
+          <li>
+            <Link to="/contact">
+              <button className={styles.navButton}>Contact</button>
+            </Link>
           </li>
         </ul>
       </div>

@@ -1,0 +1,90 @@
+@import '../../vars.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for WebKit browsers */
+body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.imageContainer {
+    overflow: hidden;
+    max-width: 768px;
+    margin-left: 10%;
+    height: 110vh;
+}
+
+.imageWrapper {
+    margin: 2%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.aboutImage:hover {
+    transform: scale(1.1);
+}
+
+.imageWrapper > * {
+    min-width: calc((100% - (1.5rem * (3))) / var(--per-view));
+    margin-right: 1.5rem;
+    aspect-ratio: 3 / 3; /* change to 3 / 3 if needed */
+}
+
+.aboutImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 1rem;
+}
+
+/* Allow the entire .aboutme section to scroll */
+.aboutme {
+    overflow-y: auto;
+    max-height: calc(55vh);
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.aboutme::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+p {
+    font-size: 14px; /* Adjusted font size for readability */
+    color: $color-light;
+    line-height: 1.6; /* Improved readability with line height */
+}
+
+.overview {
+    color: $color-light;
+}
+
+h3 {
+    color: $color-light;
+    margin-top: 1.5rem; /* Added margin for separation */
+}
+
+.values {
+    & > h3 {
+        font-size: 2.5vh;
+        font-weight: 700;
+        color: $color-light;
+    }
+
+    & > p {
+        font-size: 14px; /* Smaller font size for <p> */
+        color: $color-light;
+        margin-top: 0.5rem; /* Added a smaller margin for separation */
+        line-height: 1.4;
+    }
+}
