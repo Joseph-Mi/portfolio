@@ -147,7 +147,7 @@
         "info": "Currently working on implementing UKFs for the rocket's localization system. The rocket is designed to be able to land itself autonomously. Additionally looking for PlatformIO libraries to assist with datalogging.",
         "source": "https://github.com/CAPTR-Project",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": [""]
     },
     {
         "title": "In Progress: ME",
@@ -157,7 +157,7 @@
         "info": "Summer Project.",
         "source": "",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": [""]
     },
     {
         "title": "In Progress: ParkingLOT",
@@ -167,6 +167,6 @@
         "info": "Long-term plausible business idea.",
         "source": "",
         "sourceType": "website",
-        "images": ["projects/bridge.png"]
+        "images": [""]
     }
   ]
