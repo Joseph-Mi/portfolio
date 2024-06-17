@@ -4,22 +4,16 @@
     box-sizing: border-box;
 }
 
+// Ensure the body does not scroll
 body {
-    overflow-y: scroll; /* Enable vertical scrolling */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
-}
-
-/* Hide scrollbar for WebKit browsers */
-body::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+    overflow: hidden; /* Disable scrolling on the body */
 }
 
 .imageContainer {
     overflow: hidden;
     max-width: 768px;
     margin-left: 10%;
-    height: 110vh;
+    height: 80vh;
 }
 
 .imageWrapper {
