@@ -30,7 +30,8 @@
   background-color: $color-grey;
   color: $color-light;
   border: none;
-  padding: 1vh 10px; 
+  border-radius: 3.5px;
+  padding: 0.75vh 0.6vw; 
   font-size: 2vh;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
