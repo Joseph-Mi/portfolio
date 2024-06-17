@@ -76,6 +76,13 @@ const Resume = () => {
             </ul>
           </li>
           <li className={styles.timelineItem}>
+            <h4 className={styles.timelineItemTitle}>Univeristy of Toronto</h4>
+            <span>May 2023 — August 2023</span>
+            <p className={styles.timelineText}>
+              UofT Data Science Mini Coure, Taught by Michael Gerzhoy. Focused on utilizing R, a statistical programming language, to analyze specific data sets and compute trend interpretations.
+            </p>
+          </li>
+          <li className={styles.timelineItem}>
             <h4 className={styles.timelineItemTitle}>Agincourt Collegiate Institute</h4>
             <span>September 2019 — June 2023</span>
             <p className={styles.timelineText}>
@@ -89,22 +96,6 @@ const Resume = () => {
               <li>Head of HR, Agincourt Business Council</li>
               <li>Academic Tutor for two year, Numeracy Program</li>
             </ul>
-          </li>
-          <li className={styles.timelineItem}>
-            <h4 className={styles.timelineItemTitle}>Univeristy of Toronto</h4>
-            <span>May 2023 — August 2023</span>
-            <p className={styles.timelineText}>
-              UofT Data Science Mini Coure, Taught by Michael Gerzhoy. Focused on utilizing R, a statistical programming language, to analyze specific data sets and compute trend interpretations.
-            </p>
-          </li>
-          <li className={styles.timelineItem}>
-            <h4 className={styles.timelineItemTitle}>UTSM Powertrain Electronics Member</h4>
-            <span>September 2023 — Current</span>
-            <p className={styles.timelineText}>
-              Modeled and designed the heat sink to carry the current hydrogen fuel cell, finalized the fuel cell resistors and capacitors to be used in the powertrain circuit, and conducted BMS integration testing.
-              <br />
-              Furthermore, assisted with carbon fiber layout for the car's body.
-            </p>
           </li>
         </ol>
       </section>
