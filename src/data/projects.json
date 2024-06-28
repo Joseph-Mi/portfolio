@@ -40,7 +40,7 @@
         "images": ["projects/pend.png", "projects/tracker.png"]
     },
     {
-        "title": "Verity (Blockchain App)",
+        "title": "Verity (Blockchain DApp)",
         "imageSrc": "projects/verity_home.png",
         "description": "BlockHacks 2024 project: a blockchain-based charity Dapp that verifies the detination of donations. This DApp attempts to solve the issue of trust in charity organizations using the latest blockchain technologies provided by AstraKode.",
         "skills": ["AstraKode", "Blockchain", "React", "MongoDB"],
