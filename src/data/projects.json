@@ -63,7 +63,7 @@
         "title": "Portfolio Webpage",
         "imageSrc": "projects/portfolio.png",
         "description": "React webpage created to showcase my skills, projects, and experiences for the one of the final Praxis II Projects. This project inspired me to create this polished up webpage. It has been deployed on Netlify; Repo is in my Github.",
-        "skills": ["React", "JavaScript XML", "SCSS"],
+        "skills": ["React", "JavaScript XML", "SCSS", "Express"],
         "info": "This webpage was inspired me to create this more-complex portfolio webpage.",
         "source": "https://josephmiportfolio.netlify.app/",
         "sourceType": "website",

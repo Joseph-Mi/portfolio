@@ -24,7 +24,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3003/submit', {
+            const response = await fetch('https://my-portfolio-backend-eht5.onrender.com/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
