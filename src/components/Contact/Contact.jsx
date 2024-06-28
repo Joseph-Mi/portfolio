@@ -81,7 +81,7 @@ const Contact = () => {
                 </form>
 
                 {submissionStatus === 'success' && <p>Form submitted successfully!</p>}
-                {submissionStatus === 'error' && <p>Server is experiencing trouble. Submit one more time please.</p>}
+                {submissionStatus === 'error' && <p>Server is experiencing trouble. Please reload page and try again.</p>}
 
             </div>
             <div className={styles.bot}>
