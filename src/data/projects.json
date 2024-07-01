@@ -103,7 +103,7 @@
         "title": "Site: TMDB Movies",
         "imageSrc": "",
         "description": "Vue Movie Database site that uses the TMDB API to display movies and their details. This project was made to learn Vue.",
-        "skills": ["Python", "Data Analysis"],
+        "skills": ["Python", "Data Analysis", "Firestore"],
         "info": "First ever introduction to web design, using TMDB API to create a movie database site. This project was made to learn Vue.",
         "source": "",
         "sourceType": "website",
