@@ -101,7 +101,7 @@ const About = () => {
                         <br />
                     </p>
                 </div>
-                <div>
+                <div className={styles.overview}>
                     <h3>Key Skills and Values &#128170;</h3>
                 </div>
                 <div className={styles.values}>

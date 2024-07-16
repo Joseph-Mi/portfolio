@@ -3,12 +3,13 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import styles from './App.module.scss';
 import Navbar from './components/Navbar/Navbar';
 import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <Router>
       <div className={styles.bg}>
-        <div className={styles.stars} id="stars"></div>
+        <div className={styles.stars}></div>
         <div className={styles.stars2} id="stars2"></div>
         <div className={styles.stars3} id="stars3"></div>
         <div className={styles.app}>

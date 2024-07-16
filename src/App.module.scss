@@ -20,16 +20,24 @@ $shadows-big: multiple-box-shadow(100);
 html, body {
   height: 100%;
   margin: 0;
-  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .stars, .stars2, .stars3 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
+
+  @media (max-width: 899px) {
+    display: none; // Hide stars on mobile
+  }
 }
 
 .stars {
@@ -94,7 +102,6 @@ html, body {
     transform: translateY(-2000px);
   }
 }
-@import 'vars.scss';
 
 * {
   box-sizing: border-box;
@@ -120,6 +127,10 @@ body::-webkit-scrollbar {
   width: 100vw;
   background: radial-gradient(ellipse at bottom, #132515 0%, #070c07 100%);
   overflow: hidden;
+
+  @media (max-width: 899px) {
+    overflow-y: auto; // Enable scrolling for mobile viewports
+  }
 }
 
 .app {
@@ -131,6 +142,17 @@ body::-webkit-scrollbar {
   border-radius: 20px;
   position: relative;
   z-index: 10; // Ensure content is above the stars
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  @media (max-width: 899px) {
+    height: 100vh; // Make it take the entire height on mobile
+    width: 100vw; // Make it take the entire width on mobile
+    overflow-y: auto; // Allow scrolling on mobile
+    flex-direction: column;
+  }
 }
 
 .sidebar {
@@ -139,13 +161,26 @@ body::-webkit-scrollbar {
   background-color: $color-grey;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 899px) {
+    width: 100%;
+    height: auto; // Allow the sidebar to grow with content on mobile
+  }
 }
 
 .main {
   flex: 1;
   height: 100%; // Ensure the height matches the sidebar
-  overflow-y: auto; // Allow vertical scrolling for the main content
   display: flex; // Ensure flexbox properties are applied
   flex-direction: column; // Ensure column layout for main content
   background-color: $color-grey;
+
+  @media (min-width: 768px) {
+    overflow-y: auto;
+  }
+
+  @media (max-width: 899px) {
+    height: auto; // Allow the main content to grow with content on mobile
+  }
 }
