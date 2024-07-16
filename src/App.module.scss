@@ -35,7 +35,7 @@ body {
   bottom: 0;
   margin: auto;
 
-  @media (max-width: 899px) {
+  @media (max-width: 767px) {
     display: none; // Hide stars on mobile
   }
 }
@@ -128,7 +128,7 @@ body::-webkit-scrollbar {
   background: radial-gradient(ellipse at bottom, #132515 0%, #070c07 100%);
   overflow: hidden;
 
-  @media (max-width: 899px) {
+  @media (max-width: 767px) {
     overflow-y: auto; // Enable scrolling for mobile viewports
   }
 }
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
   }
 
-  @media (max-width: 899px) {
+  @media (max-width: 767px) {
     height: 100vh; // Make it take the entire height on mobile
     width: 100vw; // Make it take the entire width on mobile
     overflow-y: auto; // Allow scrolling on mobile
@@ -163,7 +163,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 899px) {
+  @media (max-width: 767px) {
     width: 100%;
     height: auto; // Allow the sidebar to grow with content on mobile
   }
@@ -180,7 +180,7 @@ body::-webkit-scrollbar {
     overflow-y: auto;
   }
 
-  @media (max-width: 899px) {
+  @media (max-width: 767px) {
     height: auto; // Allow the main content to grow with content on mobile
   }
 }
